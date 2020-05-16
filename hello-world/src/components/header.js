@@ -4,9 +4,7 @@ import { Link } from "gatsby"
 export default function Header() {
   return (
     <div class="header">
-      <a href="#default" class="logo">
-        My Logo
-      </a>
+      <Link to="/">My Logo</Link>
       <div class="header-right">
         <nav>
           <Link to="/about">About</Link>
