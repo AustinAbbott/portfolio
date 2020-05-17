@@ -21,21 +21,29 @@ const useStyles = makeStyles(theme => ({
 export default function Header(props) {
   const classes = useStyles()
   return (
-    <AppBar position="static" style={{ background: '#cf5e28' }}>
+    <AppBar
+      position="static"
+      style={{ background: "#00a9a6 ", padding: "2em" }}
+    >
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          {props.pageTitle || "Home"}
+          Austin Abbott
         </Typography>
-
-        <Button>
-          <Link to="/">Home</Link>
-        </Button>
-        <Button>
-          <Link to="/about">About</Link>
-        </Button>
-        <Button>
-          <Link to="/contact">Contact</Link>
-        </Button>
+          <Button>
+            <Link style={{ color: "white" }} to="/">
+              Home
+            </Link>
+          </Button>
+          <Button>
+            <Link style={{ color: "white" }} to="/about">
+              About
+            </Link>
+          </Button>
+          <Button>
+            <Link style={{ color: "white" }} to="/contact">
+              Contact
+            </Link>
+          </Button>
       </Toolbar>
     </AppBar>
   )
