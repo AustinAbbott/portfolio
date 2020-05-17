@@ -44,3 +44,7 @@
     float: none;
   }
 }
+
+body {
+  margin: 0;
+}
