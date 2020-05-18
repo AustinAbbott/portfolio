@@ -23,7 +23,7 @@ export default function Header(props) {
   const classes = useStyles()
   return (
     <AppBar
-      position="static"
+      position="fixed"
       style={{
         background: "#00a9a6 ",
         padding: "1em",
@@ -31,7 +31,7 @@ export default function Header(props) {
         justifyContent: "right",
       }}
     >
-      <Toolbar>
+      {/* <Toolbar> */}
         <div className={classes.root}>
           <Grid
             container
@@ -70,7 +70,7 @@ export default function Header(props) {
             </Grid>
           </Grid>
         </div>
-      </Toolbar>
+      {/* </Toolbar> */}
     </AppBar>
   )
 }

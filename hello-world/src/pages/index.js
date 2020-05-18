@@ -22,8 +22,6 @@ export default function Home() {
     <div>
       <Header />
       <div id="main-homepage">
-        <h1>this is the h1 on the homepage</h1>
-
         <div className={classes.root}>
           <Grid container spacing={3}>
             <Grid item xs={12}>
