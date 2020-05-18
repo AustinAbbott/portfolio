@@ -1,12 +1,14 @@
 import React from "react"
-// import { Link } from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
 export default function Home() {
   return (
-    <div style={{ color: `purple` }}>
-      <Header headerText="Hello Gatsby!" />
+    <div>
+      <Header />
+      <div id="main-homepage">
+      <h1>this is the h1 on the homepage</h1>
+      </div>
       <Footer />
     </div>
   )
