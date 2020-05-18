@@ -12,8 +12,8 @@
 
 body {
   position: fixed;
+  /* overflow: scroll; */
   margin: 0px;
-  padding: 1em;
   width: 100%;
 }
 
@@ -22,8 +22,9 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 2em;
+  height: auto;
   background-color: #00a9a6;
   color: white;
   text-align: center;
+  padding: 0.50em;
 }

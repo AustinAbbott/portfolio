@@ -6,15 +6,21 @@ import GitHubIcon from "@material-ui/icons/GitHub"
 export default function Footer(props) {
   return (
     <div id="footer">
-      <footer style={{ padding: "1em", textAlign: "center" }}>
+      <footer>
         <a
           style={{ color: "white" }}
           href="https://www.linkedin.com/in/austin-abbott/"
           target="blank_"
         >
-          <LinkedInIcon style={{ paddingRight: "0.25em" }} />
+          <LinkedInIcon style={{ padding: "0.25em" }} />
         </a>
-        <a style={{color: "white"}} href="https://github.com/AustinAbbott/" target="blank_"><GitHubIcon /></a>
+        <a
+          style={{ color: "white" }}
+          href="https://github.com/AustinAbbott/"
+          target="blank_"
+        >
+          <GitHubIcon style={{ padding: "0.25em" }}/>
+        </a>
       </footer>
     </div>
   )

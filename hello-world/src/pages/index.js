@@ -21,7 +21,13 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div id="main-homepage">
+      <div id="main-homepage" style={{ textAlign: "center" }}>
+        <div>
+          <h1>Some text</h1>
+
+          <h1>Some more text</h1>
+        </div>
+
         <div className={classes.root}>
           <Grid container spacing={3}>
             <Grid item xs={12}>
