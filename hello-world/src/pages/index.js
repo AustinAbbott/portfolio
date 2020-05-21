@@ -4,6 +4,8 @@ import Footer from "../components/footer"
 import { makeStyles } from "@material-ui/core/styles"
 import Paper from "@material-ui/core/Paper"
 import Grid from "@material-ui/core/Grid"
+import Alert from '@material-ui/lab/Alert';
+import Typography from '@material-ui/core/Typography'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -26,6 +28,10 @@ export default function Home() {
           <h1>Some text</h1>
 
           <h1>Some more text</h1>
+        </div>
+
+        <div>
+        <Alert severity="info"><Typography variant="h6" >This is an info alert — check it out!</Typography></Alert>
         </div>
 
         <div className={classes.root}>

@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "Austin-Abbott-portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A Gatsby web app to elegantly display the work and knowledge of Austin Abbott",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -16,6 +16,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.14",
     "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
     "@material-ui/styles": "^4.9.14",
     "gatsby": "^2.21.22",
     "gatsby-plugin-material-ui": "^2.1.8",
