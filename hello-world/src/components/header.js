@@ -31,44 +31,44 @@ export default function Header(props) {
         justifyContent: "right",
       }}
     >
-        <div className={classes.root}>
-          <Grid
-            container
-            direction="row"
-            justify="center"
-            alignItems="center"
-            spacing={2}
-          >
-            <Grid item xs={12} sm={6}>
-              <div style={{ textAlign: "center" }}>
-                <img
-                  src="https://i.imgur.com/AnqGLXM.jpg"
-                  style={{ width: "15%", height: "auto", borderRadius: "50%" }}
-                  alt="Austin Abbott profile"
-                ></img>
-              </div>
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <div style={{ textAlign: "center" }}>
-                <Button>
-                  <Link style={{ color: "white" }} to="/">
-                    Home
-                  </Link>
-                </Button>
-                <Button>
-                  <Link style={{ color: "white" }} to="/about">
-                    About
-                  </Link>
-                </Button>
-                <Button>
-                  <Link style={{ color: "white" }} to="/contact">
-                    Contact
-                  </Link>
-                </Button>
-              </div>
-            </Grid>
+      <div className={classes.root}>
+        <Grid
+          container
+          direction="row"
+          justify="center"
+          alignItems="center"
+          spacing={2}
+        >
+          <Grid item xs={12} sm={6}>
+            <div style={{ textAlign: "center" }}>
+              <img
+                src="https://i.imgur.com/AnqGLXM.jpg"
+                style={{ width: "15%", height: "auto", borderRadius: "50%" }}
+                alt="Austin Abbott profile"
+              ></img>
+            </div>
           </Grid>
-        </div>
+          <Grid item xs={12} sm={6}>
+            <div style={{ textAlign: "center" }}>
+              <Button>
+                <Link style={{ color: "white" }} to="/">
+                  Home
+                </Link>
+              </Button>
+              <Button>
+                <Link style={{ color: "white" }} to="/about">
+                  About
+                </Link>
+              </Button>
+              <Button>
+                <Link style={{ color: "white" }} to="/contact">
+                  Contact
+                </Link>
+              </Button>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
     </AppBar>
   )
 }

@@ -10,9 +10,21 @@
   }
 } */
 
+img {
+  width: 100%;
+  height: auto;
+
+}
+
+#img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
 body {
-  position: fixed;
-  /* overflow: scroll; */
   margin: 0px;
   width: 100%;
 }
