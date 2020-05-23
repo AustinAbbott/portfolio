@@ -22,15 +22,18 @@ const useStyles = makeStyles(theme => ({
 export default function Header(props) {
   const classes = useStyles()
   return (
-    <AppBar
-      position="static"
-      style={{
-        background: "#00a9a6 ",
-        padding: "1em",
-        display: "flex",
-        justifyContent: "right",
-      }}
-    >
+    // <AppBar
+    //   position="static"
+    //   style={{
+    //     background: "#00a9a6 ",
+    //     padding: "1em",
+    //     display: "flex",
+    //     justifyContent: "right",
+    //     left: '0',
+    //     top: '0',
+    //   }}
+    // >
+    <header>
       <div className={classes.root}>
         <Grid
           container
@@ -69,6 +72,6 @@ export default function Header(props) {
           </Grid>
         </Grid>
       </div>
-    </AppBar>
+      </header>
   )
 }

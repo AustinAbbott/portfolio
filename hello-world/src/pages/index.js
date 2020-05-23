@@ -23,17 +23,40 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div id="main-homepage" style={{ textAlign: "center" }}>
+      <div id="main-homepage" style={{ textAlign: "center", width: "100%" }}>
         <div>
           <h1>Some text</h1>
 
           <h1>Some more text</h1>
+
+          <p>
+            A whole bunch of text that is going to be used as placeholder stuff
+            to test and things and what was I talking about?{" "}
+          </p>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
 
         <div className={classes.root}>
           <Grid container spacing={3}>
             <Grid item xs={12}>
-              <Paper className={classes.paper}><h1 id="img-text">Hello There!</h1><img src="https://images.unsplash.com/photo-1526367021122-ad6dd486f9b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2098&q=80" alt="HTML5 Doctor Logo" /></Paper>
+              <Paper className={classes.paper}>top</Paper>
             </Grid>
             <Grid item xs={12} sm={6}>
               <Paper className={classes.paper}>xs=12 sm=6</Paper>

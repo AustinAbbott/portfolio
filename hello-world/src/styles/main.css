@@ -10,26 +10,35 @@
   }
 } */
 
-img {
-  width: 100%;
-  height: auto;
 
-}
 
-#img-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+html {
+  scroll-behavior: smooth;
+  width: auto!important; 
+  overflow-x: hidden!important
 }
 
 body {
-  margin: 0px;
-  width: 100%;
+  width: auto!important; 
+  overflow-x: hidden!important;
+  scroll-behavior: smooth;
+  margin: 0 auto;
 }
 
-footer {
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: #00a9a6;
+  color: white;
+  text-align: center;
+  padding: 0.50em;
+}
+
+#footer {
   position: fixed;
   left: 0;
   bottom: 0;
