@@ -1,4 +1,3 @@
-
 /* @media screen and (max-width: 500px) {
   .header a {
     float: none;
@@ -10,24 +9,22 @@
   }
 } */
 
-
-
 html {
   scroll-behavior: smooth;
-  width: auto!important; 
-  overflow-x: hidden!important
+  width: auto !important;
+  overflow-x: hidden !important;
 }
 
 body {
-  width: auto!important; 
-  overflow-x: hidden!important;
+  width: auto !important;
+  overflow-x: hidden !important;
   scroll-behavior: smooth;
   margin: 0 auto;
 }
 
-
 header {
   position: fixed;
+  box-shadow: 0 0 5px 0 gray;
   left: 0;
   top: 0;
   width: 100%;
@@ -35,7 +32,7 @@ header {
   background-color: #00a9a6;
   color: white;
   text-align: center;
-  padding: 0.50em;
+  padding: 0.5em;
 }
 
 #footer {
@@ -47,5 +44,10 @@ header {
   background-color: #00a9a6;
   color: white;
   text-align: center;
-  padding: 0.50em;
+  padding: 0;
+}
+
+#picture-box {
+  text-align: center;
+  width: 15%;
 }

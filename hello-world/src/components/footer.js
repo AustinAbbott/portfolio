@@ -12,14 +12,14 @@ export default function Footer(props) {
           href="https://www.linkedin.com/in/austin-abbott/"
           target="blank_"
         >
-          <LinkedInIcon style={{ padding: "0.25em" }} />
+          <LinkedInIcon style={{ padding: "0.30em" }} />
         </a>
         <a
           style={{ color: "white" }}
           href="https://github.com/AustinAbbott/"
           target="blank_"
         >
-          <GitHubIcon style={{ padding: "0.25em" }}/>
+          <GitHubIcon style={{ padding: "0.30em" }}/>
         </a>
       </footer>
     </div>

@@ -43,10 +43,10 @@ export default function Header(props) {
           spacing={2}
         >
           <Grid item xs={12} sm={6}>
-            <div style={{ textAlign: "center" }}>
+            <div id="picture-box" >
               <img
                 src="https://i.imgur.com/AnqGLXM.jpg"
-                style={{ width: "15%", height: "auto", borderRadius: "50%" }}
+                style={{ width: "100%", height: "auto", borderRadius: "50%" }}
                 alt="Austin Abbott profile"
               ></img>
             </div>
