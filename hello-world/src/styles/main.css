@@ -30,6 +30,11 @@ header nav {
   color: white;
 }
 
+.nav-button:hover {
+  background-color: white;
+  border-radius: 5%;
+}
+
 /* footer {
   position: fixed;
   left: 0;

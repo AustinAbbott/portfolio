@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export default function Header(props) {
   return (
     <header>
-      <h3>Header</h3>
+      <Link to="/"><h3>Austin Abbott</h3></Link>
       <nav>
         <Link to="/about" class="nav-button">About</Link>
         <Link to="/contact" class="nav-button">Contact</Link>

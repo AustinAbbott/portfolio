@@ -5,8 +5,8 @@ import Header from "../components/header"
 export default function About() {
   return (
     <div>
-    <Header></Header>
-      <h3>Austin Abbott is a relatively cool dude. -Austin Abbott</h3>
+      <Header></Header>
+      <p>Austin Abbott is a relatively cool dude. -Austin Abbott</p>
     </div>
   )
 }

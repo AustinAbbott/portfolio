@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div>
       <Header></Header>
-      <h1>Yo, hit me up</h1>
+      <p>Yo, hit me up</p>
     </div>
   )
 }
