@@ -32,11 +32,11 @@ header nav {
   padding: 1em;
   color: white;
 }
-
+/* 
 .nav-button:hover {
   background-color: white;
   border-radius: 5%;
-}
+} */
 
 .tech-stack {
   margin: 10%;
