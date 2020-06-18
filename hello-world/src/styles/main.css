@@ -4,6 +4,8 @@ body {
   overflow-x: hidden !important;
   scroll-behavior: smooth;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4a4a4a;
 }
 
 header {
@@ -13,6 +15,7 @@ header {
   text-align: center;
   color: white;
   top: 0;
+  left: 0;
   width: 100%;
 }
 
