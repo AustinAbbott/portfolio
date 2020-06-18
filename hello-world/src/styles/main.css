@@ -35,6 +35,17 @@ header nav {
   border-radius: 5%;
 }
 
+.tech-stack {
+  margin: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; align-items: center; 
+}
+
+.stack-images {
+  padding: 1% 5% 1% 5%;
+}
+
 /* footer {
   position: fixed;
   left: 0;
