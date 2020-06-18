@@ -1,20 +1,4 @@
-/* @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
-} */
-
-html {
-  scroll-behavior: smooth;
-  width: auto !important;
-  overflow-x: hidden !important;
-}
-
+html,
 body {
   width: auto !important;
   overflow-x: hidden !important;
@@ -23,19 +7,30 @@ body {
 }
 
 header {
-  position: fixed;
-  box-shadow: 0 0 5px 0 gray;
-  left: 0;
+  overflow: hidden;
+  background-color: #00a9a6;
+  padding: 1.25em;
+  text-align: center;
+  color: white;
   top: 0;
   width: 100%;
-  height: auto;
-  background-color: #00a9a6;
-  color: white;
-  text-align: center;
-  padding: 0.5em;
 }
 
-#footer {
+header h3 {
+  float: left;
+}
+
+header nav {
+  float: right;
+  padding-right: 5vw;
+}
+
+.nav-button {
+  padding: 1em;
+  color: white;
+}
+
+/* footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -45,9 +40,9 @@ header {
   color: white;
   text-align: center;
   padding: 0;
-}
+} */
 
-#picture-box {
+/* #picture-box {
   text-align: center;
   width: 15%;
-}
+} */
