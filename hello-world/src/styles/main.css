@@ -8,6 +8,8 @@ body {
   color: #4a4a4a;
 }
 
+/* ---------- HEADER ---------- */
+
 header {
   overflow: hidden;
   background-color: #00a9a6;
@@ -19,18 +21,42 @@ header {
   width: 100%;
 }
 
-header h3 {
+header img {
   float: left;
 }
 
+/* ---------- NAVIGATION ---------- */
 header nav {
   float: right;
   padding-right: 5vw;
 }
 
 .nav-button {
-  padding: 1em;
+  float: left;
   color: white;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.nav-button:hover {
+  color: white;
+  background-color: #4a4a4a;
+}
+
+.nav-button-active {
+  float: left;
+  color: white;
+  background-color: #4a4a4a;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
 /* 
 .nav-button:hover {
@@ -42,13 +68,15 @@ header nav {
   margin: 10%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 .stack-images {
   padding: 1% 5% 1% 5%;
 }
 
+/* ---------- FOOTER ---------- */
 /* footer {
   position: fixed;
   left: 0;
@@ -61,7 +89,29 @@ header nav {
   padding: 0;
 } */
 
-/* #picture-box {
-  text-align: center;
-  width: 15%;
-} */
+@media screen and (max-width: 500px) {
+  html,
+  body {
+    color: purple;
+  }
+
+  header {
+    display: inline-grid;
+    grid-template-rows: 50% 50%;
+    grid-gap: 15%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header a {
+    grid-row: 1;
+    padding: 10%;
+    float: none;
+    margin: auto;
+  }
+
+  header nav {
+    grid-row: 2;
+    margin: auto;
+  }
+}

@@ -9,8 +9,25 @@ export default function Contact() {
       <p>Yo, hit me up</p>
 
       <div>
-        <a href="https://www.linkedin.com/in/austin-abbott/" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.icons8.com/color/48/000000/linkedin.png" />
+        <a
+          href="https://www.linkedin.com/in/austin-abbott/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://img.icons8.com/color/48/000000/linkedin.png"
+            alt="linkedin"
+          />
+        </a>
+        <a
+          href="https://github.com/austinabbott"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://img.icons8.com/fluent/48/000000/github.png"
+            alt="github"
+          />
         </a>
       </div>
     </div>
