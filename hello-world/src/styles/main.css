@@ -58,14 +58,9 @@ header nav {
   line-height: 25px;
   border-radius: 4px;
 }
-/* 
-.nav-button:hover {
-  background-color: white;
-  border-radius: 5%;
-} */
 
 .tech-stack {
-  margin: 10%;
+  margin: 5% 10% 5% 10%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -90,12 +85,8 @@ header nav {
 } */
 
 @media screen and (max-width: 500px) {
-  html,
-  body {
-    color: purple;
-  }
-
   header {
+    box-sizing: border-box;
     display: inline-grid;
     grid-template-rows: 50% 50%;
     grid-gap: 15%;

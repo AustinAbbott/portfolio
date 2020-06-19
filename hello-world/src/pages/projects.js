@@ -7,7 +7,7 @@ export default function Projects() {
     <div>
       <Header />
       <p>
-        Behold! The field in which I grow my portfolio projects. Lay thine eyes upon it
+        Behold! The page in which I display my projects. Lay thine eyes upon it
         and see that it is barren.
       </p>
     </div>
