@@ -12,7 +12,7 @@ export default function Home() {
             Hi, I'm Austin Abbott. A former Purchasing Agent, Sales Consultant,
             Automotive Machinist, and Guitar Instructor turned software
             engineer! I have a passion for people, front-end development, and the
-            open web. Below is some of the tech I have used in projects. If
+            open web. Below is some of the tech I have used in recent projects. If
             you're looking for a software engineer with experience in sales,
             please reach out!
           </p>
