@@ -4,8 +4,8 @@ import Header from "../components/header"
 
 export default function Contact() {
   return (
-    <div>
-      <Header></Header>
+    <div className="page">
+      <Header />
       <p>Yo, hit me up</p>
 
       <div>

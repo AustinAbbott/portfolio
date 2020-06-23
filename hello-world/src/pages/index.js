@@ -4,7 +4,7 @@ import Header from "../components/header"
 
 export default function Home() {
   return (
-    <div style={{ textAlign: "center" }}>
+    <div className="page">
       <Header />
       <div>
         <div style={{ margin: "5% 15% 5% 15%" }}>

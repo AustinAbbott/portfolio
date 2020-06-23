@@ -1,7 +1,7 @@
 {
   "name": "Austin-Abbott-portfolio",
   "private": true,
-  "description": "A Gatsby web app to elegantly display the work and knowledge of Austin Abbott",
+  "description": "A Gatsby web app to elegantly display the work and technical knowledge of Austin Abbott",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
