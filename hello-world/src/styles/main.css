@@ -42,11 +42,6 @@ header nav {
   border-radius: 4px;
 }
 
-.nav-button:hover {
-  color: white;
-  background-color: #4a4a4a;
-}
-
 .nav-button-active {
   float: left;
   color: white;
@@ -80,17 +75,25 @@ header nav {
 }
 
 /* ---------- PROJECTS PAGE ---------- */
-.projects-section {
+/* .projects-section {
   margin: 5% 10% 5% 10%;
   display: flex;
   flex-wrap: wrap;
   grid-column-gap: 5vw;
   justify-content: center;
   align-items: center;
-}
+  background-color: #f2f2f2;
+  padding: 5%;
+} */
 
 .project-card {
   text-align: center;
+}
+
+.project-card-img {
+  width: 75%;
+  height: auto;
+  margin-top: 10%;
 }
 
 .project-card h3 {
