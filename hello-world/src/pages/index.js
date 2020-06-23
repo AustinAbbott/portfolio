@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../components/header"
-// import Footer from "../components/footer";
+import Footer from "../components/footer"
 
 export default function Home() {
   return (
@@ -11,10 +11,10 @@ export default function Home() {
           <p>
             Hi, I'm Austin Abbott. A former Purchasing Agent, Sales Consultant,
             Automotive Machinist, and Guitar Instructor turned software
-            engineer! I have a passion for people, front-end development, and the
-            open web. Below is some of the tech I have used in recent projects. If
-            you're looking for a software engineer with experience in sales,
-            please reach out!
+            engineer! I have a passion for people, front-end development, and
+            the open web. Below is some of the tech I have used in recent
+            projects. If you're looking for a software engineer with experience
+            in sales, please reach out!
           </p>
         </div>
         <div className="tech-stack">
@@ -90,6 +90,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import React from "react"
 import Header from "../components/header"
-// import Footer from "../components/footer"
+import Footer from "../components/footer"
 
 export default function Projects() {
   return (
-    <div className="page" style={{ backgroundColor: "#f2f2f2" }}>
+    <div className="page">
       <Header />
       <div className="projects-section">
         <div className="project-card">
@@ -94,6 +94,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

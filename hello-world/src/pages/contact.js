@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../components/header"
-// import Footer from "../components/footer"
+import Footer from "../components/footer"
 
 export default function Contact() {
   return (
@@ -30,6 +30,7 @@ export default function Contact() {
           />
         </a>
       </div>
+      <Footer />
     </div>
   )
 }
