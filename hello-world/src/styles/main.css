@@ -37,7 +37,7 @@ header nav {
   text-align: center;
   padding: 1em;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1em;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -49,7 +49,7 @@ header nav {
   text-align: center;
   padding: 1em;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1em;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -94,6 +94,18 @@ header nav {
   width: 75%;
   height: auto;
   margin-top: 10%;
+  -webkit-box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
+}
+
+.project-description-box {
+  background-color: white;
+  width: 75%;
+  border-radius: 0.5em;
+  padding: 1%;
+  display: inline-block;
+  margin-top: 2%;
 }
 
 .project-card h3 {
@@ -138,5 +150,25 @@ header nav {
     grid-row: 2;
     margin: auto;
     padding: 0 0 10vw 0;
+  }
+
+  .nav-button {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 0.9em;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .project-card-img {
+    width: 75%;
+    height: auto;
+    margin-top: 10%;
+    -webkit-box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
   }
 }
