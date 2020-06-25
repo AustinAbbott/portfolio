@@ -111,11 +111,27 @@ header nav {
   padding: 1%;
   display: inline-block;
   margin-top: 2%;
+  font-size: 0.75em;
+}
+
+.project-description-box img {
+  width: 7%;
 }
 
 .project-card h3 {
   font-weight: 800;
 }
+
+/* ---------- CONTACT PAGE ---------- */
+#marquee-container {
+  width: 500px; /* or whatever you want */
+  margin: 0 auto; /* centers it */
+  overflow: hidden;
+  white-space: nowrap;
+ }
+
+
+/* ---------------------------------- */
 
 /* ---------- FOOTER ---------- */
 footer {
@@ -174,5 +190,9 @@ footer {
     -webkit-box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
+  }
+
+  .project-description-box img {
+    width: 12%;
   }
 }

@@ -22,6 +22,7 @@ export default function Projects() {
               <img
                 src="https://img.icons8.com/fluent/48/000000/github.png"
                 alt="github"
+                
               />
             </a>
             <a
@@ -53,6 +54,7 @@ export default function Projects() {
               <img
                 src="https://img.icons8.com/fluent/48/000000/github.png"
                 alt="github"
+
               />
             </a>
             <a
