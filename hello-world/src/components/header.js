@@ -9,12 +9,6 @@ export default function Header() {
           <div>
             <img
               src="https://i.imgur.com/AnqGLXM.jpg?1"
-              style={{
-                width: "8em",
-                height: "auto",
-                borderRadius: "50%",
-                textAlign: "center",
-              }}
               alt="Austin Abbott profile"
             />
           </div>

@@ -1,20 +1,21 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import { Link } from "gatsby"
 
 export default function Home() {
   return (
     <div className="page">
       <Header />
       <div>
-        <div style={{ margin: "5% 15% 5% 15%" }}>
+        <div className="about-box">
           <p>
             Hi, I'm Austin Abbott. A former Purchasing Agent, Sales Consultant,
             Automotive Machinist, and Guitar Instructor turned software
             engineer! I have a passion for people, front-end development, and
             the open web. Below is some of the tech I have used in recent
             projects. If you're looking for a software engineer with experience
-            in sales, please reach out!
+            in sales, <Link to="/contact">please reach out</Link>!
           </p>
         </div>
         <div className="tech-stack">
