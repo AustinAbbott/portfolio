@@ -65,6 +65,7 @@ header nav {
 .page {
   text-align: center;
   background-color: #f2f2f2;
+  margin-bottom: 10%;
 }
 
 /* ---------- HOME PAGE ---------- */
@@ -141,11 +142,8 @@ header nav {
 }
 
 .left-panel {
-  background-color: red;
+  background-color: none;
   grid-column: 1;
-  /* box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.72); */
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .left-panel img {
@@ -163,14 +161,19 @@ header nav {
 }
 
 .right-panel img {
-  width: 40%;
+  width: 100%;
   height: auto;
-  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.right-panel img:hover {
+  opacity: 1;
 }
 
 /* ---------- FOOTER ---------- */
 footer {
   box-sizing: border-box;
+  position:fixed;
   left: 0;
   bottom: 0;
   overflow: hidden;
@@ -218,6 +221,10 @@ footer {
     border-radius: 4px;
   }
 
+  .page {
+    margin-bottom: 25%;
+  }
+
   .project-card-img {
     width: 75%;
     height: auto;
@@ -229,6 +236,35 @@ footer {
 
   .project-description-box img {
     width: 12%;
+  }
+
+  /* ---------- CONTACT ------------ */
+  .panel-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  
+  .left-panel {
+    background-color: none;
+  }
+  
+  .left-panel img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-panel {
+    display: none;
+  }
+  
+  .right-panel img {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
   }
 }
 
