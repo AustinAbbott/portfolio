@@ -68,7 +68,7 @@ header nav {
 }
 
 /* ---------- HOME PAGE ---------- */
-.about-box { 
+.about-box {
   margin: 5% 15% 5% 15%;
 }
 
@@ -132,8 +132,41 @@ header nav {
 
 /* ---------- CONTACT PAGE ---------- */
 
+.panel-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
 
-/* ---------------------------------- */
+.left-panel {
+  background-color: red;
+  grid-column: 1;
+  /* box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.72); */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.left-panel img {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-panel {
+  background-color: white;
+  grid-column: 2;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.right-panel img {
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+}
 
 /* ---------- FOOTER ---------- */
 footer {
@@ -199,6 +232,4 @@ footer {
   }
 }
 
-
-  /* --------------- TESTING --------------- */
-
+/* --------------- TESTING --------------- */

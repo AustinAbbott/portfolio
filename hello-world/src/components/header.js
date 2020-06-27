@@ -8,7 +8,8 @@ export default function Header() {
         <Link to="/">
           <div>
             <img
-              src="https://i.imgur.com/AnqGLXM.jpg?1"
+              // src="https://i.imgur.com/AnqGLXM.jpg?1"
+              src="https://i.imgur.com/mMxQnLm.jpg"
               alt="Austin Abbott profile"
             />
           </div>
