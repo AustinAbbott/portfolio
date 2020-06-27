@@ -11,6 +11,7 @@ export default function Projects() {
           <img
             src="https://i.imgur.com/WUBNWAG.png"
             className="project-card-img"
+            alt="web project triiiva"
           />
           <div className="project-description-box">
             <h3>triiivia</h3>
@@ -43,6 +44,7 @@ export default function Projects() {
           <img
             src="https://i.imgur.com/yuqlaDH.png"
             className="project-card-img"
+            alt="web project bootstrap 4"
           />
           <div className="project-description-box">
             <h3>Bootstrap 4</h3>
@@ -78,7 +80,7 @@ export default function Projects() {
           <img
             src="https://i.imgur.com/Hsq49nY.png"
             className="project-card-img"
-            alt="connect four"
+            alt="web project connect four"
           />
           <div className="project-description-box">
             <h3>Connect Four</h3>

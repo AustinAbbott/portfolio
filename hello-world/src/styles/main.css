@@ -131,12 +131,7 @@ header nav {
 }
 
 /* ---------- CONTACT PAGE ---------- */
-#marquee-container {
-  width: 500px; /* or whatever you want */
-  margin: 0 auto; /* centers it */
-  overflow: hidden;
-  white-space: nowrap;
-}
+
 
 /* ---------------------------------- */
 
@@ -203,3 +198,7 @@ footer {
     width: 12%;
   }
 }
+
+
+  /* --------------- TESTING --------------- */
+
