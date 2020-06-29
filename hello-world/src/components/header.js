@@ -22,18 +22,18 @@ export default function Header() {
             Home
           </Link>
           <Link
-            to="/contact"
-            className="nav-button"
-            activeClassName="nav-button-active"
-          >
-            Contact
-          </Link>
-          <Link
             to="/projects"
             className="nav-button"
             activeClassName="nav-button-active"
           >
             Projects
+          </Link>
+          <Link
+            to="/contact"
+            className="nav-button"
+            activeClassName="nav-button-active"
+          >
+            Contact
           </Link>
         </nav>
       </header>
