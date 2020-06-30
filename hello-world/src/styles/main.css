@@ -74,7 +74,7 @@ header nav {
 
 /* ---------- HOME PAGE ---------- */
 .about-box {
-  margin: 5% 15% 5% 15%;
+  margin: 10% 15% 10% 15%;
 }
 
 .tech-stack {
@@ -86,8 +86,20 @@ header nav {
 }
 
 .stack-images {
-  padding: 1% 5% 1% 5%;
+  padding: 0% 5% 5.5% 5%;
   text-align: center;
+}
+
+.stack-images img {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+
+.stack-images p {
+  text-align: center;
+  margin: 0;
 }
 
 /* ---------- PROJECTS PAGE ---------- */
@@ -98,9 +110,9 @@ header nav {
 }
 
 .project-card-img {
-  width: 60%;
+  width: 55%;
   height: auto;
-  margin-top: 10%;
+  margin: 10% 0 0 0;
   -webkit-box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
@@ -134,8 +146,23 @@ header nav {
   align-items: center;
 }
 
+.contact-icons-grid {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .icons {
   padding: 1% 15% 1% 15%;
+  text-align: center;
+}
+
+.contact p {
+  font-size: .9em;
+  color: blue;
   text-align: center;
 }
 
