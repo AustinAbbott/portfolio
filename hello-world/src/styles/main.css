@@ -128,7 +128,7 @@ footer {
 }
 
 .project-card-img {
-  width: 55%;
+  width: 60%;
   height: auto;
   margin: 10% 0 0 0;
   -webkit-box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
@@ -166,7 +166,7 @@ footer {
 
 .contact {
   margin: 5% 10% 5% 10%;
-  }
+}
 
 .contact-icons-grid {
   box-sizing: border-box;
@@ -255,9 +255,8 @@ footer {
   }
 
   /* ----- CONTACT ----- */
-
-  .home-town {
-    display: none;
+  .contact {
+    margin: 5% 10% 20% 10%;
   }
 
   .contact-icons-grid {
@@ -281,4 +280,3 @@ footer {
   }
 }
 
-/* --------------- TESTING --------------- */
