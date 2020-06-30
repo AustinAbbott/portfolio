@@ -65,7 +65,11 @@ export default function Contact() {
             </a>
           </div>
           <div>
-            <a href="/contact" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://docs.google.com/document/d/1pZCYbLgV5cBRWl49yvEACwpdQxTeDglhfhPyyoxLO1g/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 className="icons"
                 src="https://img.icons8.com/nolan/64/resume.png"

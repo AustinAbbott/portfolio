@@ -10,6 +10,8 @@ body {
   background-color: #f2f2f2;
 }
 
+/* ========== COMPONENTS ========== */
+
 /* ---------- HEADER ---------- */
 
 header {
@@ -60,7 +62,24 @@ header nav {
   border-radius: 4px;
 }
 
-/* ---------- ALL PAGES ---------- */
+/* ---------- FOOTER ---------- */
+footer {
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: #00a9a6;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+/* ========== PAGES ========== */
+
+/* ----- ALL PAGES ----- */
 
 .page {
   box-sizing: border-box;
@@ -72,7 +91,7 @@ header nav {
   min-height: 100vh;
 }
 
-/* ---------- HOME PAGE ---------- */
+/* ----- HOME PAGE ----- */
 .about-box {
   margin: 10% 15% 10% 15%;
 }
@@ -91,18 +110,17 @@ header nav {
 }
 
 .stack-images img {
+  width: 95%;
   margin-bottom: 0;
   text-align: center;
 }
-
-
 
 .stack-images p {
   text-align: center;
   margin: 0;
 }
 
-/* ---------- PROJECTS PAGE ---------- */
+/* ----- PROJECTS PAGE ----- */
 
 .project-card {
   text-align: center;
@@ -137,52 +155,40 @@ header nav {
   font-weight: 800;
 }
 
-/* ---------- CONTACT PAGE ---------- */
+/* ----- CONTACT PAGE ----- */
 .contact {
-  margin: 20% 10% 5% 10%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  margin: 5% 10% 5% 10%;
 }
 
 .contact-icons-grid {
   box-sizing: border-box;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  text-align: center;
+}
+
+.contact-icons-grid div {
+  margin: 5%;
 }
 
 .icons {
-  padding: 1% 15% 1% 15%;
-  text-align: center;
+  width: 100%;
 }
 
 .contact p {
-  font-size: .9em;
+  font-size: 0.9em;
   color: blue;
   text-align: center;
-}
-
-
-/* ---------- FOOTER ---------- */
-footer {
-  box-sizing: border-box;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-  background-color: #00a9a6;
-  color: white;
-  text-align: center;
-  padding: 1%;
+  margin: 0;
 }
 
 @media screen and (max-width: 500px) {
+  /* ========== COMPONENTS ========== */
+
+  /* ----- HEADER ----- */
   header {
     box-sizing: border-box;
     display: inline-grid;
@@ -217,10 +223,14 @@ footer {
     border-radius: 4px;
   }
 
+  /* ========== PAGES ========== */
+
+  /* ----- ALL PAGES ----- */
   .page {
     margin-bottom: 25%;
   }
 
+  /* ----- PROJECT PAGE ----- */
   .project-card-img {
     width: 75%;
     height: auto;
@@ -234,7 +244,26 @@ footer {
     width: 12%;
   }
 
-  /* ---------- CONTACT ------------ */
+  /* ----- CONTACT ----- */
+  .contact-icons-grid {
+    box-sizing: border-box;
+    display: inline;
+  }
+
+  .contact-icons-grid div {
+    margin: 15%;
+  }
+
+  .icons {
+    width: 35%;
+    height: auto;
+  }
+
+  .contact p {
+    font-size: 0.9em;
+    color: blue;
+    text-align: center;
+  }
 }
 
 /* --------------- TESTING --------------- */
