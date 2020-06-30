@@ -156,12 +156,22 @@ footer {
 }
 
 /* ----- CONTACT PAGE ----- */
+
+.contact-page {
+  width: 100%;
+  margin: 0% 0% 5% 0%;
+  height: auto;
+  text-align: center;
+}
+
 .contact {
   margin: 5% 10% 5% 10%;
-}
+  }
 
 .contact-icons-grid {
   box-sizing: border-box;
+  background-color: white;
+  border-radius: 5px;
   width: 100%;
   height: auto;
   display: flex;
@@ -245,6 +255,11 @@ footer {
   }
 
   /* ----- CONTACT ----- */
+
+  .home-town {
+    display: none;
+  }
+
   .contact-icons-grid {
     box-sizing: border-box;
     display: inline;
@@ -255,7 +270,7 @@ footer {
   }
 
   .icons {
-    width: 35%;
+    width: 25%;
     height: auto;
   }
 

@@ -4,7 +4,7 @@ import Footer from "../components/footer"
 
 export default function Contact() {
   return (
-    <div className="page">
+    <div className="contact-page">
       <Header />
       <div className="contact">
         <div className="contact-icons-grid">
