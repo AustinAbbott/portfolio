@@ -239,9 +239,15 @@ footer {
   .profile-picture {
     -ms-grid-row: 1;
     grid-row: 1;
-    padding: 10%;
-    float: none;
-    margin: auto;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -ms-grid-rows: 100%;
+    grid-template-rows: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 15% 0 0 0;
+    text-align: center;
   }
 
   header nav {
