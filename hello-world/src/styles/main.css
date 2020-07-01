@@ -64,7 +64,8 @@ header nav {
 
 /* ---------- FOOTER ---------- */
 footer {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -82,7 +83,8 @@ footer {
 /* ----- ALL PAGES ----- */
 
 .page {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-align: center;
   width: 100%;
   height: auto;
@@ -98,11 +100,17 @@ footer {
 
 .tech-stack {
   margin: 5% 10% 5% 10%;
-  -webkit-flex: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .stack-images {
@@ -133,7 +141,6 @@ footer {
   height: auto;
   margin: 10% 0 0 0;
   -webkit-box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
 }
 
@@ -170,15 +177,23 @@ footer {
 }
 
 .contact-icons-grid {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: white;
   border-radius: 5px;
   width: 100%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact-icons-grid div {
@@ -201,16 +216,24 @@ footer {
 
   /* ----- HEADER ----- */
   header {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -ms-inline-grid;
     display: inline-grid;
+    -ms-grid-rows: 50% 15% 50%;
     grid-template-rows: 50% 50%;
     grid-gap: 15%;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 0.5em;
   }
 
   header a {
+    -ms-grid-row: 1;
     grid-row: 1;
     padding: 10%;
     float: none;
@@ -218,6 +241,7 @@ footer {
   }
 
   header nav {
+    -ms-grid-row: 2;
     grid-row: 2;
     margin: auto;
     padding: 0 0 10vw 0;
@@ -247,7 +271,6 @@ footer {
     height: auto;
     margin-top: 10%;
     -webkit-box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
   }
 
@@ -261,7 +284,8 @@ footer {
   }
 
   .contact-icons-grid {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     display: inline;
   }
 
@@ -280,4 +304,3 @@ footer {
     text-align: center;
   }
 }
-
