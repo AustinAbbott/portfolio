@@ -5,14 +5,14 @@ export default function Header() {
   return (
     <div>
       <header>
-        <Link to="/">
-          <div>
+        <div className="profile-picture">
+          <Link to="/">
             <img
               src="https://i.imgur.com/AnqGLXM.jpg?1"
               alt="Austin Abbott profile"
             />
-          </div>
-        </Link>
+          </Link>
+        </div>
         <nav>
           <Link
             to="/"
