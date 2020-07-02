@@ -244,8 +244,8 @@ footer {
     -ms-grid-rows: 100%;
     grid-template-rows: 100%;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 15% 0 0 0;
     text-align: center;
   }

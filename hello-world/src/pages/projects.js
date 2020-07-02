@@ -82,6 +82,7 @@ export default function Projects() {
           />
           <div className="project-description-box">
             <h3>Connect Four</h3>
+            <p>A React mini app</p>
             <a
               href="https://github.com/AustinAbbott/Connect-Four/blob/master/README.md"
               target="_blank"
@@ -92,7 +93,29 @@ export default function Projects() {
                 alt="github"
               />
             </a>
-            <p>A React Mini App.</p>
+            <div>
+              <span>
+                <img
+                  style={{ width: "5%" }}
+                  alt=""
+                  src="https://img.icons8.com/color/144/000000/react-native.png"
+                />
+              </span>
+              <span>
+                <img
+                  style={{ width: "5%" }}
+                  alt=""
+                  src="https://img.icons8.com/color/144/000000/html-5.png"
+                />
+              </span>
+              <span>
+                <img
+                  style={{ width: "5%" }}
+                  alt=""
+                  src="https://img.icons8.com/color/144/000000/css3.png"
+                />
+              </span>
+            </div>
           </div>
         </div>
       </div>
