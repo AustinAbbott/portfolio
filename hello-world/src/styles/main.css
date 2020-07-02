@@ -282,15 +282,19 @@ footer img {
 
   /* ----- PROJECT PAGE ----- */
   .project-card-img {
-    width: 75%;
+    width: 90%;
     height: auto;
     margin-top: 10%;
     -webkit-box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 12px 14px -13px rgba(0, 0, 0, 0.75);
   }
 
+  .project-description-box  {
+    width: 70%;
+  }
+
   .project-description-box img {
-    width: 12%;
+    width: 12.5%;
   }
 
   /* ----- CONTACT ----- */
