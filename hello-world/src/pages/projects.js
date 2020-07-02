@@ -15,7 +15,16 @@ export default function Projects() {
           />
           <div className="project-description-box">
             <h3>triiivia</h3>
-            <p>A React project using the OpenDB trivia API and Material-UI.</p>
+            <p>
+              A React project using the OpenDB trivia API and Material-UI. Users
+              pick a Category, Number of Questions, Difficulty, and start
+              answering questions (to the best of their ability). The app makes
+              an api request based on the users selections, randomizes the
+              question and answer data; tracks how many answers are correct
+              during the round, and awards the user a celebration gif at the
+              end. My goal was to create a simple, minimalist trivia app, and
+              this is it!
+            </p>
             <a
               href="https://github.com/AustinAbbott/triiivia"
               target="_blank"
@@ -32,8 +41,8 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/fluent/48/000000/link.png"
-                alt="chain-link"
+                src="https://img.icons8.com/carbon-copy/100/000000/domain.png"
+                alt="website"
               />
             </a>
             <div>
@@ -83,8 +92,9 @@ export default function Projects() {
           <div className="project-description-box">
             <h3>Bootstrap 4</h3>
             <p>
-              A project I did following a course online to learn the ins and
-              outs of Bootstrap.
+              A front-end project I did following a course online to learn the
+              ins and outs of Bootstrap. Not only did I learn Bootstrap, I
+              learned some new front-end best practices!
             </p>
             <a
               href="https://github.com/AustinAbbott/Bootstrap-4"
@@ -102,8 +112,8 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/fluent/48/000000/link.png"
-                alt="chain-link"
+                src="https://img.icons8.com/nolan/96/video.png"
+                alt="video link"
               />
             </a>
             <div>
@@ -137,7 +147,13 @@ export default function Projects() {
           />
           <div className="project-description-box">
             <h3>Connect Four</h3>
-            <p>A React mini app</p>
+            <p>
+              A React mini app I built to really work my JavaScript knowledge
+              and my brain. On every move, I use JavaScript to check the board
+              for wins -- diagonally, vertically, and horizontally. Using
+              React's state, I conditionally render the board based on which
+              turn it is and if the round is won or not.
+            </p>
             <a
               href="https://github.com/AustinAbbott/Connect-Four/blob/master/README.md"
               target="_blank"
