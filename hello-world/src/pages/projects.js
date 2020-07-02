@@ -15,6 +15,7 @@ export default function Projects() {
           />
           <div className="project-description-box">
             <h3>triiivia</h3>
+            <p>A React project using the OpenDB trivia API and Material-UI.</p>
             <a
               href="https://github.com/AustinAbbott/triiivia"
               target="_blank"
@@ -35,7 +36,41 @@ export default function Projects() {
                 alt="chain-link"
               />
             </a>
-            <p>A React project using the OpenDB trivia API and Material-UI.</p>
+            <div>
+              <span>
+                <img
+                  alt=""
+                  src="https://img.icons8.com/color/144/000000/react-native.png"
+                />
+              </span>
+              <span>
+                <img
+                  alt=""
+                  src="https://img.icons8.com/color/96/000000/material-ui.png"
+                />
+              </span>
+              <span>
+                <img alt="" src="https://img.icons8.com/nolan/64/api.png" />
+              </span>
+              <span>
+                <img
+                  alt=""
+                  src="https://img.icons8.com/color/96/000000/javascript.png"
+                />
+              </span>
+              <span>
+                <img
+                  alt=""
+                  src="https://img.icons8.com/color/144/000000/html-5.png"
+                />
+              </span>
+              <span>
+                <img
+                  alt=""
+                  src="https://img.icons8.com/color/144/000000/css3.png"
+                />
+              </span>
+            </div>
           </div>
         </div>
 
@@ -47,6 +82,10 @@ export default function Projects() {
           />
           <div className="project-description-box">
             <h3>Bootstrap 4</h3>
+            <p>
+              A project I did following a course online to learn the ins and
+              outs of Bootstrap.
+            </p>
             <a
               href="https://github.com/AustinAbbott/Bootstrap-4"
               target="_blank"
@@ -67,10 +106,26 @@ export default function Projects() {
                 alt="chain-link"
               />
             </a>
-            <p>
-              A project I did following a course online to learn the ins and
-              outs of Bootstrap.
-            </p>
+            <div>
+              <span>
+                <img
+                  alt=""
+                  src="https://img.icons8.com/color/96/000000/bootstrap.png"
+                />
+              </span>
+              <span>
+                <img
+                  alt=""
+                  src="https://img.icons8.com/color/144/000000/html-5.png"
+                />
+              </span>
+              <span>
+                <img
+                  alt=""
+                  src="https://img.icons8.com/color/144/000000/css3.png"
+                />
+              </span>
+            </div>
           </div>
         </div>
 
@@ -89,28 +144,31 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/fluent/48/000000/github.png"
+                src="https://img.icons8.com/fluent/96/000000/github.png"
                 alt="github"
               />
             </a>
             <div>
               <span>
                 <img
-                  style={{ width: "5%" }}
                   alt=""
                   src="https://img.icons8.com/color/144/000000/react-native.png"
                 />
               </span>
               <span>
                 <img
-                  style={{ width: "5%" }}
+                  alt=""
+                  src="https://img.icons8.com/color/96/000000/javascript.png"
+                />
+              </span>
+              <span>
+                <img
                   alt=""
                   src="https://img.icons8.com/color/144/000000/html-5.png"
                 />
               </span>
               <span>
                 <img
-                  style={{ width: "5%" }}
                   alt=""
                   src="https://img.icons8.com/color/144/000000/css3.png"
                 />
