@@ -99,7 +99,8 @@ footer img {
 
 /* ----- HOME PAGE ----- */
 .about-box {
-  margin: 10% 15% 10% 15%;
+  margin: 5% 15% 7.5% 15%;
+  font-size: 1.2em;
 }
 
 .tech-stack {
