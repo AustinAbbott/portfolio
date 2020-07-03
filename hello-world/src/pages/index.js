@@ -9,8 +9,9 @@ export default function Home() {
       <Header />
       <div>
         <div className="about-box">
+        <h3>Hi, I'm Austin Abbott.</h3>
           <p>
-            Hi, I'm Austin Abbott. A former Purchasing Agent, Sales Consultant,
+            A former Purchasing Agent, Sales Consultant,
             Automotive Machinist, and Guitar Instructor turned software
             engineer! I have a passion for people, software development, and
             the open web. Below is some of the tech I have used in recent

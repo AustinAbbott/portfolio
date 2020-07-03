@@ -31,7 +31,7 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/fluent/48/000000/github.png"
+                src="https://img.icons8.com/fluent/96/000000/github.png"
                 alt="github"
               />
             </a>
@@ -102,7 +102,7 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/fluent/48/000000/github.png"
+                src="https://img.icons8.com/fluent/96/000000/github.png"
                 alt="github"
               />
             </a>
