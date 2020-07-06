@@ -14,27 +14,33 @@ export default function Header() {
           </Link>
         </div>
         <nav>
-          <Link
-            to="/"
-            className="nav-button"
-            activeClassName="nav-button-active"
-          >
-            Home
-          </Link>
-          <Link
-            to="/projects"
-            className="nav-button"
-            activeClassName="nav-button-active"
-          >
-            Projects
-          </Link>
-          <Link
-            to="/contact"
-            className="nav-button"
-            activeClassName="nav-button-active"
-          >
-            Contact
-          </Link>
+          <span>
+            <Link
+              to="/"
+              className="nav-button"
+              activeClassName="nav-button-active"
+            >
+              Home
+            </Link>
+          </span>
+          <span>
+            <Link
+              to="/projects"
+              className="nav-button"
+              activeClassName="nav-button-active"
+            >
+              Projects
+            </Link>
+          </span>
+          <span>
+            <Link
+              to="/contact"
+              className="nav-button"
+              activeClassName="nav-button-active"
+            >
+              Contact
+            </Link>
+          </span>
         </nav>
       </header>
     </div>

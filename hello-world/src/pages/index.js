@@ -9,16 +9,30 @@ export default function Home() {
       <Header />
       <div>
         <div className="about-box">
-        <h3>Hi, I'm Austin Abbott.</h3>
+          <h3>Hi, I'm Austin Abbott.</h3>
           <p>
-            A former Purchasing Agent, Sales Consultant,
-            Automotive Machinist, and Guitar Instructor turned software
-            engineer! I have a passion for people, software development, and
-            the open web. Below is some of the tech I have used in recent
-            projects. If you're looking for a software engineer with experience
-            in sales, <Link to="/contact">please reach out</Link>!
+            I'm a software engineer with a passion for the open web (think
+            Mozilla, Open Whisper Systems, DuckDuckGo). Formerly a Purchasing
+            Agent, Sales Consultant, Automotive Machinist, and Guitar
+            Instructor, I discovered software when I started building WordPress
+            websites for small businesses and non-profits as a side-hustle.{" "}
+            <br />
+            <br />
+            I then decided to attend Hack Reactor in Boulder, CO, to gain
+            hands-on experience pair programming, learning the fundamentals of
+            computer science, and building full-stack web applications.
+            <br />
+            <br />
+            When I'm not coding, I derive great pleasure from reading, playing
+            one of my 9 guitars, and expressing myself through music.
+            <br />
+            <br />
+            If you're looking for a software engineer with a sense of humor,
+            love for music, and a can-do attitude{" "}
+            <Link to="/contact">please reach out</Link>!
           </p>
         </div>
+        <h3 style={{fontSize: "1.75em"}}>Software Skills</h3>
         <div className="tech-stack">
           <div className="stack-images">
             <img
