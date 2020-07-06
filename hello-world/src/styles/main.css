@@ -147,7 +147,7 @@ footer img {
 }
 
 .project-card-img {
-  width: 60%;
+  width: 45%;
   height: auto;
   margin: 10% 0 0 0;
   -webkit-box-shadow: 10px 12px 32px -13px rgba(0, 0, 0, 0.75);
@@ -156,7 +156,7 @@ footer img {
 
 .project-description-box {
   background-color: white;
-  width: 55%;
+  width: 60%;
   height: auto;
   border-radius: 0.5em;
   padding: 1%;
