@@ -16,7 +16,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="https://docs.google.com/document/d/1pZCYbLgV5cBRWl49yvEACwpdQxTeDglhfhPyyoxLO1g/edit?usp=sharing"
+            href="https://docs.google.com/document/d/e/2PACX-1vS45gbS6de8z4fJN05C3-smR3uwDhax--q4o26YGDtCtsHEs2XBoR8FNY8mGBdQ0eEsbr5b89phTYmQ/pub"
             target="_blank"
             rel="noopener noreferrer"
           >
