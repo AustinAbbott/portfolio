@@ -36,6 +36,11 @@ export default function Footer() {
             />
           </a>
         </div>
+        <div>
+          <p>
+            Built with GatsbyJS
+          </p>
+        </div>
       </footer>
     </div>
   )
