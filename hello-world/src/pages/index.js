@@ -11,21 +11,21 @@ export default function Home() {
         <div className="about-box">
           <h3>Hi, I'm Austin Abbott.</h3>
           <p>
-            I'm a software engineer with a passion for the open web (Mozilla,
-            Open Whisper Systems, DuckDuckGo). Formerly a Purchasing Agent,
-            Sales Consultant, Automotive Machinist, and Guitar Instructor, I
-            discovered software when I started building WordPress websites for
-            small businesses and non-profits as a side-hustle. <br />
+            I'm a software engineer with a passion for the open web (think
+            Mozilla, Open Whisper Systems, DuckDuckGo). Formerly a Purchasing
+            Agent, Sales Consultant, Automotive Machinist, and Guitar
+            Instructor, I discovered software when I started building WordPress
+            websites for small businesses and non-profits as a side-hustle.{" "}
+            <br />
             <br />
             I then decided to attend Hack Reactor in Boulder, CO, to gain
             hands-on experience pair programming, learning the fundamentals of
-            computer science, and building full-stack web applications. Since
-            completing Hack Reactor, I have been building web apps left and
-            right, honing my software skills.
+            computer science, and building full-stack web applications.
             <br />
             <br />
-            When I'm not coding, I derive great pleasure from reading, playing
-            one of my 9 guitars, and expressing myself through music.
+            When I'm not coding or honing my coding skills, I derive great
+            pleasure from reading, playing Ultimate Frisbee, and expressing
+            myself through music creation.
             <br />
             <br />
             If you're looking for a software engineer with a sense of humor,
