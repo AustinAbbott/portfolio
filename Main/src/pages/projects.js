@@ -17,13 +17,12 @@ export default function Projects() {
             <h3>triiivia</h3>
             <p>
               A React project using the OpenDB trivia API and Material-UI. Users
-              pick a Category, Number of Questions, Difficulty, and start
-              answering questions (to the best of their ability). The app makes
-              an api request based on the users selections, randomizes the
-              question and answer data; tracks how many answers are correct
-              during the round, and awards the user a celebration gif at the
-              end. My goal was to create a simple, minimalist trivia app, and
-              this is it!
+              pick a category, the number of questions to answer, and the level
+              of difficulty. Upon submission, the app makes an API request based
+              on the users selections and randomizes the question and answer
+              data once retrieved. During the game, the app tracks how many
+              answers are correct during the round, and provides the results and
+              a celebration gif at the end of the game.
             </p>
             <a
               href="https://github.com/AustinAbbott/triiivia"
@@ -149,9 +148,9 @@ export default function Projects() {
             <h3>Connect Four</h3>
             <p>
               A React mini app I built to really work my JavaScript knowledge
-              and my brain. On every move, I use JavaScript to check the board
-              for wins -- diagonally, vertically, and horizontally. Using
-              React's state, I conditionally render the board based on which
+              (and my brain). On each move, I use JavaScript to check the
+              board for wins -- diagonally, vertically, and horizontally. Using
+              React's state, I conditionally render the board based on whose
               turn it is and if the round is won or not.
             </p>
             <a
