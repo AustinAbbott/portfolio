@@ -1,12 +1,11 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-const bootstrap = require('bootstrap');
 
 export default function Contact() {
   return (
     <div className="contact-page">
-      {/* <Header />
+      <Header />
       <div className="contact">
         <div className="contact-icons-grid">
           <div>
@@ -81,7 +80,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }
