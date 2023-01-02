@@ -10,19 +10,9 @@ export default function Home() {
         <div className="about-box">
           <h3>Hi, I'm Austin Abbott.</h3>
           <p>
-            I'm an aspiring software engineer with a passion for the open web.
-            Formerly a Purchasing Agent, Sales Consultant, and Guitar
-            Instructor, I discovered a passion for web development and software
-            when I started building websites for local small businesses and
-            non-profits as a side-hustle.
-            <br />
-            <br />
-            In 2019, I decided to pursue software engineering as a full-time
-            career, attending Hack Reactor at Galvanize in Boulder, CO, to gain
-            hands-on experience pair programming, learning the fundamentals of
-            computer science, and building full-stack web applications.
-            <br />
-            <br />
+            I'm a Software Engineer working in Fintech with experience in
+            JavaScript, React, Material-UI, HTML, CSS, Node, Express, and
+            PostgreSQL.
           </p>
         </div>
         <h3 style={{ fontSize: "1.75em" }}>Software Skills</h3>
