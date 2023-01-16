@@ -1,0 +1,22 @@
+footer {
+  -webkit-box-sizing: border-box;
+  /* box-sizing: border-box; */
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: #00a9a6;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+footer img {
+  padding: 0.5%;
+}
+
+footer p {
+  font-size: small;
+}
