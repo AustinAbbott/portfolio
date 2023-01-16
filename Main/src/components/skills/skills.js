@@ -1,9 +1,9 @@
 import React from "react"
-
+import './skills.css'
 export const Skills = () => {
   return (
     <div>
-      <h3 style={{ fontSize: "1.75em" }}>Software Skills</h3>
+      <h3 className="skills-header">Software Skills</h3>
       <div className="tech-stack">
         <div className="stack-images">
           <img
