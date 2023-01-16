@@ -6,8 +6,8 @@ body {
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: #4a4a4a;
-  background-color: #ffffff;
+  color: white;
+  background-color: black;
 }
 
 /* ========== COMPONENTS ========== */
@@ -15,9 +15,9 @@ body {
 /* ---------- HEADER ---------- */
 
 header {
-  position: relative;
+  position: fixed;
   overflow: hidden;
-  background-color: #00a9a6;
+  background-color: black;
   padding: 1.25em;
   text-align: center;
   color: white;
@@ -56,6 +56,7 @@ header nav {
   background-color: white;
   color: #4a4a4a;
 }
+
 .nav-button-active {
   float: left;
   color: white;
@@ -102,13 +103,16 @@ footer p {
   text-align: center;
   width: 100%;
   height: auto;
-  background-color: #ffffff;
+  background-color: black;
+  margin-top: 168px;
   margin-bottom: 15%;
   min-height: 100vh;
 }
 
 /* ----- HOME PAGE ----- */
 .about-box {
+  border-bottom: 1px solid white;
+  padding: 10px;
   margin: 5% 17.5% 5% 17.5%;
   font-size: 1.2em;
 }
@@ -160,7 +164,7 @@ footer p {
 }
 
 .project-description-box {
-  background-color: white;
+  background-color: black;
   width: 60%;
   height: auto;
   border-radius: 0.5em;
@@ -299,6 +303,7 @@ footer p {
 
   /* ----- ALL PAGES ----- */
   .page {
+    margin-top: 284px;
     margin-bottom: 50%;
   }
 
@@ -343,5 +348,9 @@ footer p {
     font-size: 0.9em;
     color: blue;
     text-align: center;
+  }
+
+  .about-box {
+    border: 1px solid white;
   }
 }
