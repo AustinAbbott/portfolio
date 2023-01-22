@@ -6,95 +6,13 @@ body {
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: #4a4a4a;
-  background-color: #ffffff;
-}
-
-/* ========== COMPONENTS ========== */
-
-/* ---------- HEADER ---------- */
-
-header {
-  position: relative;
-  overflow: hidden;
-  background-color: #00a9a6;
-  padding: 1.25em;
-  text-align: center;
   color: white;
-  top: 0;
-  left: 0;
-  width: 100%;
+  background-color: black;
 }
 
-header img {
-  float: left;
-  margin-left: 2.5%;
-  width: 8em;
-  height: auto;
-  border-radius: 50%;
-  text-align: center;
+h3 {
+  font-size: 28px;
 }
-
-/* ---------- NAVIGATION ---------- */
-header nav {
-  float: right;
-  padding: 2vw 5vw 2vw 0;
-}
-
-.nav-button {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 1em;
-  text-decoration: none;
-  font-size: 1em;
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.nav-button:hover {
-  background-color: white;
-  color: #4a4a4a;
-}
-.nav-button-active {
-  float: left;
-  color: white;
-  background-color: #4a4a4a;
-  text-align: center;
-  padding: 1em;
-  text-decoration: none;
-  font-size: 1em;
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-/* ---------- FOOTER ---------- */
-footer {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-  background-color: #00a9a6;
-  color: white;
-  text-align: center;
-  padding: 1%;
-}
-
-footer img {
-  padding: 0.5%;
-}
-
-footer p {
-  font-size: small;
-}
-
-/* ========== PAGES ========== */
-
-/* ----- ALL PAGES ----- */
 
 .page {
   -webkit-box-sizing: border-box;
@@ -102,46 +20,13 @@ footer p {
   text-align: center;
   width: 100%;
   height: auto;
-  background-color: #ffffff;
-  margin-bottom: 15%;
+  background-color: black;
+  margin-top: 168px;
   min-height: 100vh;
 }
 
-/* ----- HOME PAGE ----- */
-.about-box {
-  margin: 5% 17.5% 5% 17.5%;
-  font-size: 1.2em;
-}
-
-.tech-stack {
-  margin: 5% 10% 5% 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.stack-images {
-  padding: 0% 5% 5.5% 5%;
-  text-align: center;
-}
-
-.stack-images img {
-  width: 95%;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.stack-images p {
-  text-align: center;
-  margin: 0;
+.page-content {
+  padding-top: 30px;
 }
 
 /* ----- PROJECTS PAGE ----- */
@@ -160,7 +45,7 @@ footer p {
 }
 
 .project-description-box {
-  background-color: white;
+  background-color: black;
   width: 60%;
   height: auto;
   border-radius: 0.5em;
@@ -188,21 +73,21 @@ footer p {
 
 /* ----- CONTACT PAGE ----- */
 
-.contact-page {
-  width: 100%;
-  margin: 0% 0% 5% 0%;
-  height: auto;
+.contact-page  {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
-}
-
-.contact {
-  margin: 5% 10% 5% 10%;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  margin-top: 168px;
+  min-height: calc(100vh - 168px);
 }
 
 .contact-icons-grid {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: white;
+  background-color: black;
   border-radius: 5px;
   width: 100%;
   height: auto;
@@ -235,70 +120,11 @@ footer p {
 }
 
 @media screen and (max-width: 500px) {
-  /* ========== COMPONENTS ========== */
-
-  /* ----- HEADER ----- */
-  header {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: -ms-inline-grid;
-    display: inline-grid;
-    -ms-grid-rows: 50% 15% 50%;
-    grid-template-rows: 50% 50%;
-    grid-gap: 15%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 0.5em;
-  }
-
-  header a {
-    margin: 0;
-  }
-
-  header img {
-    margin-left: 0;
-  }
-
-  .profile-picture {
-    -ms-grid-row: 1;
-    grid-row: 1;
-    display: -ms-inline-grid;
-    display: inline-grid;
-    -ms-grid-rows: 100%;
-    grid-template-rows: 100%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 15% 0 0 0;
-    text-align: center;
-  }
-
-  header nav {
-    -ms-grid-row: 2;
-    grid-row: 2;
-    margin: auto;
-    padding: 0 0 10vw 0;
-  }
-
-  .nav-button {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    text-decoration: none;
-    font-size: 0.9em;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-
   /* ========== PAGES ========== */
 
   /* ----- ALL PAGES ----- */
   .page {
+    margin-top: 284px;
     margin-bottom: 50%;
   }
 
@@ -320,8 +146,10 @@ footer p {
   }
 
   /* ----- CONTACT ----- */
-  .contact {
-    margin: 5% 10% 50% 10%;
+  .contact-page {
+    display: grid;
+    margin-top: 240px;
+    min-height: calc(100vh - 300px);
   }
 
   .contact-icons-grid {

@@ -1,0 +1,21 @@
+footer {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+footer img {
+  padding: 0.5%;
+}
+
+footer p {
+  font-size: small;
+}

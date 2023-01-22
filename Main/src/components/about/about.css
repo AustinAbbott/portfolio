@@ -1,0 +1,12 @@
+.about-box {
+  border-bottom: 1px solid white;
+  padding: 10px;
+  margin: 5% 17.5% 5% 17.5%;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 500px) {
+  .about-box {
+    border: 1px solid white;
+  }
+}
