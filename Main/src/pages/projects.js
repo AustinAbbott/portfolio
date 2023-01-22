@@ -1,7 +1,5 @@
 import React from "react"
-import Footer from "../components/footer/footer"
 import Header from "../components/header/header"
-
 
 export default function Projects() {
   return (
@@ -41,7 +39,7 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <img
-                src="https://img.icons8.com/carbon-copy/100/000000/domain.png"
+                src="https://img.icons8.com/nolan/64/domain.png"
                 alt="website"
               />
             </a>
@@ -149,8 +147,8 @@ export default function Projects() {
             <h3>Connect Four</h3>
             <p>
               A React mini app I built to really work my JavaScript knowledge
-              (and my brain). On each move, I use JavaScript to check the
-              board for wins -- diagonally, vertically, and horizontally. Using
+              (and my brain). On each move, I use JavaScript to check the board
+              for wins -- diagonally, vertically, and horizontally. Using
               React's state, I conditionally render the board based on whose
               turn it is and if the round is won or not.
             </p>
@@ -193,7 +191,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

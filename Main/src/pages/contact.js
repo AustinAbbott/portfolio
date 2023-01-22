@@ -1,6 +1,5 @@
 import React from "react"
 import Header from "../components/header/header"
-import Footer from "../components/footer/footer"
 
 export default function Contact() {
   return (
@@ -8,20 +7,6 @@ export default function Contact() {
       <Header />
       <div className="contact">
         <div className="contact-icons-grid">
-          <div>
-            <a
-              href="mailto:austin.abbott.works@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="icons"
-                src="https://img.icons8.com/nolan/64/email.png"
-                alt="email"
-              />
-              <p>Email</p>
-            </a>
-          </div>
           <div>
             <a
               href="https://www.linkedin.com/in/austin-abbott/"
@@ -33,7 +18,6 @@ export default function Contact() {
                 src="https://img.icons8.com/nolan/64/linkedin.png"
                 alt="linkedin"
               />
-              <p>LinkedIn</p>
             </a>
           </div>
           <div>
@@ -47,12 +31,23 @@ export default function Contact() {
                 src="https://img.icons8.com/nolan/64/github.png"
                 alt="github"
               />
-              <p>Github</p>
+            </a>
+          </div>
+          <div>
+            <a
+              href="mailto:austin.abbott.works@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="icons"
+                src="https://img.icons8.com/nolan/64/email.png"
+                alt="email"
+              />
             </a>
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

@@ -10,9 +10,9 @@ body {
   background-color: black;
 }
 
-/* ========== PAGES ========== */
-
-/* ----- ALL PAGES ----- */
+h3 {
+  font-size: 28px;
+}
 
 .page {
   -webkit-box-sizing: border-box;
@@ -22,8 +22,11 @@ body {
   height: auto;
   background-color: black;
   margin-top: 168px;
-  /* margin-bottom: 15%; */
   min-height: 100vh;
+}
+
+.page-content {
+  padding-top: 30px;
 }
 
 /* ----- PROJECTS PAGE ----- */
@@ -70,21 +73,21 @@ body {
 
 /* ----- CONTACT PAGE ----- */
 
-.contact-page {
-  width: 100%;
-  margin: 0% 0% 5% 0%;
-  height: auto;
+.contact-page  {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
-}
-
-.contact {
-  margin: 5% 10% 5% 10%;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  margin-top: 168px;
+  min-height: calc(100vh - 168px);
 }
 
 .contact-icons-grid {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: white;
+  background-color: black;
   border-radius: 5px;
   width: 100%;
   height: auto;
@@ -143,8 +146,10 @@ body {
   }
 
   /* ----- CONTACT ----- */
-  .contact {
-    margin: 5% 10% 50% 10%;
+  .contact-page {
+    display: grid;
+    margin-top: 240px;
+    min-height: calc(100vh - 300px);
   }
 
   .contact-icons-grid {
