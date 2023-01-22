@@ -1,0 +1,34 @@
+.skills-header {
+  font-size: 28px;
+}
+
+.tech-stack {
+  margin: 5% 10% 5% 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.stack-images {
+  padding: 0% 5% 5.5% 5%;
+  text-align: center;
+}
+
+.stack-images img {
+  width: 95%;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.stack-images p {
+  text-align: center;
+  margin: 0;
+}
