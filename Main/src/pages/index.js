@@ -11,7 +11,14 @@ export default function Home() {
         <div>
           <u>
             I'm migrating my website. V2 (built with{" "}
-            <a href="https://astro.build/">Astro</a>) coming soon!
+            <a
+              href="https://astro.build/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Astro
+            </a>
+            ) coming soon!
           </u>
         </div>
         <About />
