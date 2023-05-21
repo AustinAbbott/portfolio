@@ -8,8 +8,14 @@ export default function Home() {
     <div className="page">
       <Header />
       <div className="page-content">
-      <About />
-      <Skills />
+        <div>
+          <u>
+            I'm migrating my website. V2 (built with{" "}
+            <a href="https://astro.build/">Astro</a>) coming soon!
+          </u>
+        </div>
+        <About />
+        <Skills />
       </div>
     </div>
   )
