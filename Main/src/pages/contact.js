@@ -35,7 +35,7 @@ export default function Contact() {
           </div>
           <div>
             <a
-              href="mailto:austin.abbott.works@gmail.com"
+              href="mailto:contact@austinabbott.dev"
               target="_blank"
               rel="noopener noreferrer"
             >
